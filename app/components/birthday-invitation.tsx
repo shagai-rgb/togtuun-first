@@ -2,7 +2,15 @@
 
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Cake, MapPin, Calendar, Clock, Phone } from "lucide-react";
+import {
+  Cake,
+  MapPin,
+  Calendar,
+  Clock,
+  Phone,
+  Check,
+  Copy,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { CopyButton } from "./copy-button";
 
@@ -69,9 +77,10 @@ export default function BirthdayInvitation({
             </div>
             <div className="flex items-center space-x-2 text-gray-700">
               <MapPin className="h-5 w-5 text-pink-500" />
-              <span>{location}</span>
               <a href="https://www.google.com/maps/place/%D0%A3%D0%94%D0%A5%D0%A290,+BZD+-+36+khoroo,+Ulaanbaatar+13311/@47.9068138,106.9416119,48m/data=!3m1!1e3!4m6!3m5!1s0x5d969229673f3e93:0xc6cc1f3d681286b5!8m2!3d47.9067579!4d106.9417641!16s%2Fg%2F11t2cmz719?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D">
-                link
+                <span>
+                  {location} <Copy className="h-4 w-4" />
+                </span>
               </a>
             </div>
             <div className="flex items-center space-x-2 text-gray-700">

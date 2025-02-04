@@ -11,11 +11,11 @@ export default function OurTeam() {
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 ">
           {/* card */}
-          <div className=" max-w-sm bg-white rounded-lg shadow-sm">
+          <div className=" max-w-sm bg-white rounded-lg shadow-sm ">
             <div className="flex flex-col items-center p-10">
               <img
                 className="w-44 h-44 mb-5 rounded-full shadow-lg object-cover object-right "
-                src="./images/natashaivanova.jpg"
+                src="./images/aaw.jpeg"
                 alt="Natasha Ivanova image"
               />
               <h5 className="mt-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -29,7 +29,7 @@ export default function OurTeam() {
             <div className="flex flex-col items-center p-10">
               <img
                 className="w-44 h-44 mb-5 rounded-full  shadow-lg object-cover object-left"
-                src="./images/mikeperry.jpg"
+                src="./images/eej.jpeg"
                 alt="Mike Perry image"
               />
               <h5 className="m-1 mb-4 text-2xl font-bold text-yellow-500 ">
@@ -42,7 +42,7 @@ export default function OurTeam() {
             <div className="flex flex-col items-center p-10">
               <img
                 className="w-44 h-44 mb-5 rounded-full  shadow-lg object-cover object-left"
-                src="./images/mikeperry.jpg"
+                src="./images/togtuun.jpeg"
                 alt="Mike Perry image"
               />
               <h5 className="m-1 mb-4 text-2xl font-bold text-yellow-500 ">

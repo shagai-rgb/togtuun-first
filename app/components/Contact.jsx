@@ -14,7 +14,7 @@ export default function Contact() {
             name="Togtuun"
             date="2025:02:09"
             time="15:00-20:00"
-            location="УДХТ90, BZD - 36 khoroo, Ulaanbaatar 13311"
+            location="УДХТ90,BZD-36 khoroo,Ulaanbaatar"
             phoneNumber="80509830"
             age={1}
           />
