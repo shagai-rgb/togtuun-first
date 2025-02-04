@@ -40,14 +40,14 @@ export default function Hero() {
     return () => clearInterval(interval); // Cleanup interval when component unmounts
   }, []);
 
-  const ref = (useRef < HTMLDivElement) | (null > null);
+  const ref = useRef | (null > null);
 
   const isInView = useInView(ref, { threshold: 0.1 });
 
-  const ref1 = (useRef < HTMLDivElement) | (null > null);
+  const ref1 = useRef | (null > null);
 
   const isInView1 = useInView(ref1, { threshold: 0.1 });
-  const ref2 = (useRef < HTMLDivElement) | (null > null);
+  const ref2 = useRef | (null > null);
 
   const isInView2 = useInView(ref1, { threshold: 0.1 });
 

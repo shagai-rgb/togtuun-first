@@ -2,15 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import {
-  Cake,
-  MapPin,
-  Calendar,
-  Clock,
-  Phone,
-  Check,
-  Copy,
-} from "lucide-react";
+import { Cake, MapPin, Calendar, Clock, Phone, Copy } from "lucide-react";
 import { motion } from "framer-motion";
 import { CopyButton } from "./copy-button";
 
